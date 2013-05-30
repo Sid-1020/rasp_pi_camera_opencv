@@ -12,7 +12,7 @@ To setup camera:
     sudo apt-get install git-core
     sudo wget http://goo.gl/1BOfJ -O /usr/bin/rpi-update
     sudo chmod +x /usr/bin/rpi-update
-    sudo rpiupdate
+    sudo rpi-update
 
 Edit /boot/config.txt and add these two lines at the end:
 
