@@ -10,7 +10,7 @@ filename = "capture.jpg"
 while (True):
   print "capturing image"
   start = time.time()
-  os.system("/opt/vc/bin/raspicam -w 800 -h 600 -t 0 -o " + filename)
+  os.system("/opt/vc/bin/raspistill -w 800 -h 600 -t 0 -o " + filename)
   end = time.time()
   print "captured image in " + str(end-start) + " seconds"
 
